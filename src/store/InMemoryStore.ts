@@ -46,6 +46,8 @@ export class InMemoryStore implements Store {
     });
   }
 
+
+  // Todo: Make this faster.
   upvote(userId: userId, roomId: string, chatId: string) {
     const room = this.store.get(roomId);
     if (!room) {
