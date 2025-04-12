@@ -1,7 +1,0 @@
-we are building a normal websocket server.
-It's not a distributed websocket server.
-It should work fine for number of users <10000.
-I have added in memory object that will have the state of the room.
-This will not work in distributed websocket servers.
-For now I have created a class Store in which we are using inmemory.
-Later we will replace it with postgress or reddis.
